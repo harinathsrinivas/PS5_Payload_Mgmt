@@ -56,8 +56,8 @@
     {
       "name": "PerfBar",
       "filename": "PerfBar.elf",
-      "version": "1.0",
-      "url": "https://github.com/X1NONs/PrefBar/releases/latest/download/perfbar-complete.elf",
+      "version": "0.1.1",
+      "url": "https://github.com/X1NONs/PrefBar/releases/download/v0.1.1/perfbar-complete.elf",
       "author": "X1NONs",
       "description": "Real-time performance, FPS, and thermal overlay.",
       "category": "Utilities & Tools",
