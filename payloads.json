@@ -1,84 +1,106 @@
-[
-  {
-    "id": "nanodns",
-    "name": "NanoDNS",
-    "version": "1.0",
-    "url": "https://github.com/Drakmor/nanodns/releases/latest/download/nanodns.elf",
-    "author": "Drakmor",
-    "description": "Blocks telemetry and update servers.",
-    "autoload": true
-  },
-  {
-    "id": "shadowmountplus",
-    "name": "ShadowMountPlus",
-    "version": "1.0",
-    "url": "https://github.com/Drakmor/ShadowMountPlus/releases/latest/download/shadowmountplus.elf",
-    "author": "Drakmor",
-    "description": "Auto-mounter for game dumps and containers.",
-    "autoload": true
-  },
-  {
-    "id": "kstuff-lite",
-    "name": "KStuff Lite",
-    "version": "1.0",
-    "url": "https://github.com/EchoStretch/ps5-kstuff-lite/releases/latest/download/kstuff-lite.elf",
-    "author": "EchoStretch",
-    "description": "Fself decryption and fpkg enabler.",
-    "autoload": true
-  },
-  {
-    "id": "fan-target-65c",
-    "name": "Fan Target (65°C)",
-    "version": "1.0",
-    "url": "https://github.com/Drakmor/fan_target/releases/latest/download/fan_target.zip",
-    "extract_file": "fan_target_65c.elf",
-    "author": "Drakmor",
-    "description": "Forces the APU fan target to 65°C to prevent overheating.",
-    "autoload": true
-  },
-  {
-    "id": "ps5-60fps",
-    "name": "PS5-60FPS",
-    "version": "1.0",
-    "url": "https://github.com/eladharels/ps5-60FPS/releases/latest/download/ps5-60FPS.elf",
-    "author": "eladharels",
-    "description": "Standalone 60FPS unlocker for supported games.",
-    "autoload": false
-  },
-  {
-    "id": "perfbar",
-    "name": "PerfBar",
-    "version": "1.0",
-    "url": "https://github.com/X1NONs/PerfBar/releases/latest/download/PerfBar.elf",
-    "author": "X1NONs",
-    "description": "Real-time performance, FPS, and thermal overlay.",
-    "autoload": false
-  },
-  {
-    "id": "web-file-mgr",
-    "name": "PS5 Web File Manager",
-    "version": "1.0",
-    "url": "https://github.com/owendswang/ps5-web-file-manager/releases/latest/download/web-file-mgr.elf",
-    "author": "owendswang",
-    "description": "Manage PS5 internal storage from your PC browser.",
-    "autoload": false
-  },
-  {
-    "id": "game-compressor",
-    "name": "PS5 Game Compressor",
-    "version": "1.0",
-    "url": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases/latest/download/game-compressor.elf",
-    "author": "juma-sayeh",
-    "description": "On-console exFAT extraction and FFPFSC compression.",
-    "autoload": false
-  },
-  {
-    "id": "chronicloader",
-    "name": "ChronicLoader",
-    "version": "1.0",
-    "url": "https://github.com/the-m-a-x/ChronicLoader/releases/latest/download/chronicloader.elf",
-    "author": "Chronic",
-    "description": "Silent background updater for custom payloads.",
-    "autoload": false
-  }
-]
+{
+  "name": "My Custom PS5 Payloads",
+  "payloads": [
+    {
+      "name": "NanoDNS",
+      "filename": "nanodns.elf",
+      "version": "1.0",
+      "url": "https://github.com/Drakmor/nanodns/releases/latest/download/nanodns.elf",
+      "author": "Drakmor",
+      "description": "Blocks telemetry and update servers.",
+      "category": "Networking & Servers",
+      "autoload": true
+    },
+    {
+      "name": "ShadowMountPlus",
+      "filename": "shadowmountplus.elf",
+      "version": "1.0",
+      "url": "https://github.com/Drakmor/ShadowMountPlus/releases/latest/download/shadowmountplus.elf",
+      "author": "Drakmor",
+      "description": "Auto-mounter for game dumps and containers.",
+      "category": "Utilities & Tools",
+      "autoload": true
+    },
+    {
+      "name": "KStuff Lite",
+      "filename": "kstuff-lite.elf",
+      "version": "1.0",
+      "url": "https://github.com/EchoStretch/ps5-kstuff-lite/releases/latest/download/kstuff-lite.elf",
+      "author": "EchoStretch",
+      "description": "Fself decryption and fpkg enabler.",
+      "category": "System & Jailbreak",
+      "autoload": true
+    },
+    {
+      "name": "Fan Target (65°C)",
+      "filename": "fan_target_65c.elf",
+      "version": "1.0",
+      "url": "https://github.com/Drakmor/fan_target/releases/latest/download/fan_target.zip",
+      "extract_file": "fan_target_65c.elf",
+      "author": "Drakmor",
+      "description": "Forces the APU fan target to 65°C to prevent overheating.",
+      "category": "Utilities & Tools",
+      "autoload": true
+    },
+    {
+      "name": "PS5-60FPS",
+      "filename": "ps5-60FPS.elf",
+      "version": "1.0",
+      "url": "https://github.com/eladharels/ps5-60FPS/releases/latest/download/ps5-60FPS.elf",
+      "author": "eladharels",
+      "description": "Standalone 60FPS unlocker for supported games.",
+      "category": "Utilities & Tools",
+      "autoload": false
+    },
+    {
+      "name": "PerfBar",
+      "filename": "PerfBar.elf",
+      "version": "1.0",
+      "url": "https://github.com/X1NONs/PerfBar/releases/latest/download/PerfBar.elf",
+      "author": "X1NONs",
+      "description": "Real-time performance, FPS, and thermal overlay.",
+      "category": "Utilities & Tools",
+      "autoload": false
+    },
+    {
+      "name": "PS5 Web File Manager",
+      "filename": "web-file-mgr.elf",
+      "version": "1.0",
+      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/latest/download/web-file-mgr.elf",
+      "author": "owendswang",
+      "description": "Manage PS5 internal storage from your PC browser.",
+      "category": "Utilities & Tools",
+      "autoload": false
+    },
+    {
+      "name": "PS5 Game Compressor",
+      "filename": "game-compressor.elf",
+      "version": "1.1.1",
+      "url": "https://github.com/gcoding97/ps5-game-compressor/releases/latest/download/game-compressor.elf",
+      "author": "gcoding97",
+      "description": "On-console exFAT extraction and FFPFSC compression.",
+      "category": "Utilities & Tools",
+      "autoload": false
+    },
+    {
+      "name": "PS5 App Dumper",
+      "filename": "ps5-app-dumper.elf",
+      "version": "2.10",
+      "url": "https://github.com/EchoStretch/ps5-app-dumper/releases/latest/download/ps5-app-dumper_v2.10.elf",
+      "author": "EchoStretch",
+      "description": "Dumps installed PS5 application files to a connected USB storage device.",
+      "category": "Utilities & Tools",
+      "autoload": false
+    },
+    {
+      "name": "ChronicLoader",
+      "filename": "chronicloader.elf",
+      "version": "1.0",
+      "url": "https://github.com/the-m-a-x/ChronicLoader/releases/latest/download/chronicloader.elf",
+      "author": "Chronic",
+      "description": "Silent background updater for custom payloads.",
+      "category": "Utilities & Tools",
+      "autoload": false
+    }
+  ]
+}
